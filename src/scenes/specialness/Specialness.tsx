@@ -23,7 +23,7 @@ const specialnesses: Array<SpecialnessType> = [
     { 
         icon: <AcademicCapIcon className="h-6 w-6" />,
         title: "Charity",
-        description: "The band was awarded the UN Global Leadership Award for their humanitarian philanthropy via their Music for Relief non-profit, and fundraising $500,000 USD to the Save the Children charity following the events of the 2011 Tōhoku earthquake and tsunami"
+        description: "The band was awarded the UN Global Leadership Award for their humanitarian philanthropy via their Music for Relief non-profit, and fundraising $500,000 USD to the Save the Children."
     },
 ]
 
@@ -36,8 +36,16 @@ const Specialness = ({ setSelectedPage }: Props) => {
     return (
         <section id="specialness" className="bg-gray-20 mx-auto min-h-full pt-1 pb-20">
             <motion.div
-            className="w-5/6 mx-auto"
+                className="w-5/6 mx-auto"
                 onViewportEnter={() => setSelectedPage(SelectedPage.Specialness)}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.5 }}
+                variants={{
+                    hidden: { opacity: 0, x: 100 },
+                    visible: { opacity: 1, x: 0 },
+                }}
             >
                 <div className="md:my-5 md:w-3/5">
                     <HText>More Than Just Band</HText>
