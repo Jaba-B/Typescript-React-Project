@@ -4,3 +4,9 @@ export enum SelectedPage {
     Albums = "albums",
     ContactUs = "contactus"
 }
+
+export interface SpecialnessType {
+    icon: JSX.Element;
+    title: string;
+    description: string;
+}
