@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Navbar from "../src/scenes/navbar/index"
 import Home from "../src/scenes/navbar/Home"
 import { SelectedPage } from './shared/types';
+import Specialness from './scenes/specialness/Specialness';
 
 function App() {
   const [ selectedPage, setSelectedPage ] = useState<SelectedPage>(SelectedPage.Home);
@@ -27,6 +28,7 @@ function App() {
         setSelectedPage={setSelectedPage} 
       />
       <Home setSelectedPage={setSelectedPage}  />
+      <Specialness setSelectedPage={setSelectedPage}  />
     </div>
   )
 }
