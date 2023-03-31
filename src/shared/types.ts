@@ -10,3 +10,9 @@ export interface SpecialnessType {
     title: string;
     description: string;
 }
+
+export interface AlbumType {
+    name: string;
+    description: string;
+    image: string;
+}

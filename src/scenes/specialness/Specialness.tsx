@@ -67,8 +67,8 @@ const Specialness = ({ setSelectedPage }: Props) => {
                         />
                     ))}
                 </div>
-                <div className="mt-20 flex flex-col items-center md:flex-row md:justify-between lg:justify-around">
-                    <img src={community} alt="linkin park community logo" className="w-[400px]" />
+                <div className="mt-20 flex flex-col items-center md:flex-row md:justify-between lg:justify-evenly">
+                    <img src={community} alt="linkin park community logo" className="w-[400px] md:mr-8 lg:mr-0" />
                     <div className="mt-10 md:mt-0 md:max-w-[700px]">
                         <HText><p className="text-center">Foundation of Linkin Park Association</p></HText>
                         <p className="mt-5">Derek - Founder: When I opened the up The Linkin Park Association as a cheesy Angelfire fan page, I didn't expect much from myself, the visitors, and certaintly of the site. You see, I had a tendency on quiting on the last 5 sites I had made, and well I didn't think this was going to last any longer than the rest; </p>
