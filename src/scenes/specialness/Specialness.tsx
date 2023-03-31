@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { HText } from "../../shared/HText"
 import SpecialnessItem from "./SpecialnessItem";
 import { SpecialnessType } from "@/shared/types"
+import  community from "../../assets/community.jpg"
 
 const specialnesses: Array<SpecialnessType> = [
     { 
@@ -65,6 +66,15 @@ const Specialness = ({ setSelectedPage }: Props) => {
                             setSelectedPage={setSelectedPage}
                         />
                     ))}
+                </div>
+                <div className="mt-20 flex flex-col items-center md:flex-row md:justify-between lg:justify-around">
+                    <img src={community} alt="linkin park community logo" className="w-[400px]" />
+                    <div className="mt-10 md:mt-0 md:max-w-[700px]">
+                        <HText><p className="text-center">Foundation of Linkin Park Association</p></HText>
+                        <p className="mt-5">Derek - Founder: When I opened the up The Linkin Park Association as a cheesy Angelfire fan page, I didn't expect much from myself, the visitors, and certaintly of the site. You see, I had a tendency on quiting on the last 5 sites I had made, and well I didn't think this was going to last any longer than the rest; </p>
+                        <p className="mt-5">As I had just become an active member of the LPMB [Linkin Park Message Board] I incidently recieved my first Private Message from a user known as LinkiedTheory, requesting to help me on my crude experimental site. So, unknown to the dangers of instant recruiting I signed him up with me thinking I've associated myself with some average fan with little or no experience of creating websites, and that I was still on my own.</p>
+                        <p></p>
+                    </div>
                 </div>
             </motion.div>
         </section>
