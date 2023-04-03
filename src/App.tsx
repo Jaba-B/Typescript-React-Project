@@ -4,6 +4,7 @@ import Home from "../src/scenes/navbar/Home"
 import { SelectedPage } from './shared/types';
 import Specialness from './scenes/specialness/Specialness';
 import Albums from './scenes/albums/Albums';
+import ContactUs from "./scenes/contactUs/ContactUs"
 
 function App() {
   const [ selectedPage, setSelectedPage ] = useState<SelectedPage>(SelectedPage.Home);
@@ -31,6 +32,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage}  />
       <Specialness setSelectedPage={setSelectedPage}  />
       <Albums setSelectedPage={setSelectedPage}  />
+      <ContactUs setSelectedPage={setSelectedPage}  />
     </div>
   )
 }
