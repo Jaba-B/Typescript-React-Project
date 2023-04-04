@@ -7,21 +7,21 @@ const Footer = () => {
                 <div className="mt-16 basis-1/2 md:mt-0">
                     <HText>Linkin Park Association</HText>
                     <p className="my-5">
-                        METEORA 20TH ANNIVERSARY LIMITED EDITION SUPER DELUXE BOX SET AVAILABLE APRIL 7TH INCLUDING UNRELEASED SONGS, DEMOS, B-SIDES, LIVE SHOWS AND NEVER BEFORE SEEN BEHIND THE SCENES FOOTAGE.
+                    Meteora 20th anniversary limited edition super deluxe box set available april 7th including unreleased songs, demos, b-sides, live shows and never before seen behind the scenes footage.
                     </p>
-                    <p>© 2023 LINKIN PARK. ALL RIGHTS RESERVED</p>
+                    <p>© 2023 Linkin Park. All rights reserved</p>
                 </div>
                 <div className="mt-16 basis-1/4 md:mt-0">
                     <h4>Links</h4>
-                    <p className="my-5">SUBSCRIBE TO LP NEWSLETTER</p>
-                    <p className="my-5">LPU SHOP</p>
-                    <p>TERMS AND CONDITIONS</p>
+                    <p className="my-5">Subscripe To Linkin Park Newsletter</p>
+                    <p className="my-5">LPU Shop</p>
+                    <p>Terms and Conditions</p>
                 </div>
                 <div className="mt-16 basis-1/4 md:mt-0">
                     <h4>Contact Us</h4>
                     <p className="my-5">linkin@park.com</p>
-                    <p className="my-5">TERMS & CONDITIONS // PRIVACY POLICY</p>
-                    <p>AD CHOICES // COOKIES POLICY // COOKIES SETTINGS</p>
+                    <p className="my-5">Terms and Conditions Privacy Policy</p>
+                    <p>Ad Choices // Cookis Policy // Cookies Settings</p>
                 </div>
             </div>
         </footer>
