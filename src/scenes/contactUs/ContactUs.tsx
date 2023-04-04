@@ -3,8 +3,6 @@ import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form"
 import contactUs from "@/assets/contactUs.jpg";
-// import ContactUsPageGraphic from "@/assets"
-
 
 type Props = {
     setSelectedPage: ( value: SelectedPage ) => void;

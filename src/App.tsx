@@ -5,6 +5,7 @@ import { SelectedPage } from './shared/types';
 import Specialness from './scenes/specialness/Specialness';
 import Albums from './scenes/albums/Albums';
 import ContactUs from "./scenes/contactUs/ContactUs"
+import Footer from "./scenes/Footer"
 
 function App() {
   const [ selectedPage, setSelectedPage ] = useState<SelectedPage>(SelectedPage.Home);
@@ -33,6 +34,7 @@ function App() {
       <Specialness setSelectedPage={setSelectedPage}  />
       <Albums setSelectedPage={setSelectedPage}  />
       <ContactUs setSelectedPage={setSelectedPage}  />
+      <Footer  />
     </div>
   )
 }
